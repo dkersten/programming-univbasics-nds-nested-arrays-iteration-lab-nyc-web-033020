@@ -42,7 +42,9 @@ def total_even_pairs(src)
   row_i = 0
   total = 0
   while row_i < src.length do
-    if ( ((src[row_i][0]) % 2 == 0) )
+    if ( ((src[row_i][0]) % 2 == 0) && ((src[row_i][1]) % 2 == 0) )
+      total += 
+    end
     row_i += 1
   end
 end
