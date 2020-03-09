@@ -11,6 +11,7 @@ def join_ingredients(src)
   
   while row_i < src.length do
     new_array.push("I love #{src[row_i][0]} and #{src[row_i][1]} on my pizza")
+    row_i += 1
   end
   new_array
   
